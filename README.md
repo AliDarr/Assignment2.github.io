@@ -1,2 +1,2 @@
-# Assignment2.github.io
+# Assignment 2 - PBD
 Its about PBD Assignment 2
