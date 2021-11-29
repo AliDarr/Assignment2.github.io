@@ -1,0 +1,158 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>PBD - Assignment 2</title>
+</head>
+
+<body>
+
+    <style>
+        .heading {
+            margin-top: 4rem;
+            font-size: 35px;
+            text-align: center;
+        }
+        
+        .sub-head {
+            font-size: 25px;
+            text-align: center;
+        }
+        
+        .last {
+            margin-bottom: 2rem;
+        }
+    </style>
+
+    <h1 class="heading">PBD - Assignment 2: </h1>
+    <h3 class="sub-head">Plot Histograms & Pie Charts Using Pyhton</h3>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+            <div class="flex mx-auto flex-wrap mb-20">
+                <a class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-red-500 text-red-500 tracking-wider rounded-t">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 mr-3" viewBox="0 0 24 24">
+              </svg>1- Import & Read
+                </a>
+            </div>
+            <img class="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="1.png">
+            <div class="flex flex-col text-center w-full">
+                <h1 class="text-xl font-medium title-font mb-4 text-gray-900">Import Modules and Read Data</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">First of all for Histogram and Pie chart ploting in Python, we need so me Modules such as Numpy, Pandas, Metaplotlib.pyplot. After Importing these modules we need data, we take sample data set from the given link...</p>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">File Name: jsrt_metadata.csv</p>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base"><a href="https://www.kaggle.com/raddar/nodules-in-chest-xrays-jsrt">https://www.kaggle.com/raddar/nodules-in-chest-xrays-jsrt</a></p>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">After that, we store this data into some variable</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+            <div class="flex mx-auto flex-wrap mb-20">
+                <a class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-red-500 text-red-500 tracking-wider rounded-t">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 mr-3" viewBox="0 0 24 24">
+              </svg>2- Allocate & Find
+                </a>
+            </div>
+            <img class="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="2.png">
+            <div class="flex flex-col text-center w-full">
+                <h1 class="text-xl font-medium title-font mb-4 text-gray-900">Store All Diseases and Find Unique Diseases</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Now, we store all Diseases in one object type variable without missing values. Then, using this object type variable to find unique diseases and store them.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+            <div class="flex mx-auto flex-wrap mb-20">
+                <a class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-red-500 text-red-500 tracking-wider rounded-t">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 mr-3" viewBox="0 0 24 24">
+              </svg>3- Plot Histogram
+                </a>
+            </div>
+            <img class="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="3.png">
+            <div class="flex flex-col text-center w-full">
+                <h1 class="text-xl font-medium title-font mb-4 text-gray-900">Plot Histogram Using Previous Objects</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Now, we have x-axis and y-axis , So now we can easily plot histogram by using Metaplotlib functions and prevoius data objects. We use some extra functions to make this better but these are not necessary. You can simple set figure size,
+                    then call the hist() funtion and at last simply call show() function.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+            <div class="flex mx-auto flex-wrap mb-20">
+                <a class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-red-500 text-red-500 tracking-wider rounded-t">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 mr-3" viewBox="0 0 24 24">
+              </svg>4- Specify No. Of Patients
+                </a>
+            </div>
+            <img class="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="4.png">
+            <div class="flex flex-col text-center w-full">
+                <h1 class="text-xl font-medium title-font mb-4 text-gray-900">Using Dictionary to Count Each Disease Patient</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Basically, Pie Chart only operates on numbers. So, we need to make Dictionary anf find count of each disease Patients total. To plot pie chart easily.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+            <div class="flex mx-auto flex-wrap mb-20">
+                <a class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-red-500 text-red-500 tracking-wider rounded-t">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 mr-3" viewBox="0 0 24 24">
+              </svg>4- Pie Chart - 1
+                </a>
+            </div>
+            <img class="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="5.1.png">
+            <img class="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="5.5.png">
+            <div class="flex flex-col text-center w-full">
+                <h1 class="text-xl font-medium title-font mb-4 text-gray-900">Plot Pie Chart To Check No. Of Patient in Each Disease</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">So, Now we can easily plot pie chart to make things clearly by using Metaplotlib functions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+            <div class="flex mx-auto flex-wrap mb-20">
+                <a class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-red-500 text-red-500 tracking-wider rounded-t">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 mr-3" viewBox="0 0 24 24">
+              </svg>5- Pie Chart - 2
+                </a>
+            </div>
+            <img class="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="6.1.png">
+            <img class="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="6.png">
+            <div class="flex flex-col text-center w-full">
+                <h1 class="text-xl font-medium title-font mb-4 text-gray-900">Plot Pie Chart To Find No. of Malignant or Benign State Disease</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Firstly, we store state column in some object without missing values then we make a Dictionary and apply same prevoius methods to plot pie chart.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+            <div class="flex mx-auto flex-wrap mb-20">
+                <a class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-red-500 text-red-500 tracking-wider rounded-t">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 mr-3" viewBox="0 0 24 24">
+              </svg>6- Pie Chart - 3
+                </a>
+            </div>
+            <img class="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="7.1.png">
+            <img class="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="7.png">
+            <div class="flex flex-col text-center w-full">
+                <h1 class="text-xl font-medium title-font mb-4 text-gray-900">Plot Pie Chart To Find No. of Male or Female Patients</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Firstly, we store gender column in some object without missing values then we make a Dictionary and apply same prevoius methods to plot pie chart.</p>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="heading last">The End...</h1>
+
+</body>
+
+</html>
